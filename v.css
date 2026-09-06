@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: AliceBlue;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+h1{
+    text-align:center;
+}
+.nav-links{
+    display:flex;
+    gap:30px;
+    justify-content:space-around;
+    align-items: center;
+    
+
+}
+button {
+    background-color:rgb(111, 245, 145);
+    
+}
+button a{}
+
+
+
+div{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+.item1{
+    background-color: red;
+    flex-grow: 1;
+}

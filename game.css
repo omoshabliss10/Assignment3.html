@@ -1,0 +1,63 @@
+.section {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(180, 229, 211);
+}
+.number-grid {
+    border: 1px solid rgba(8, 8, 8, 0.587);
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.item {
+    background-color: rgb(12, 12, 12);
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: rgba(8, 184, 16, 0.881);
+    border-radius: 8px;
+}
+.game-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.restart-btn, .next-round-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hint-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer {
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(2, 45, 29);
+}
