@@ -1,0 +1,31 @@
+.vh{
+    border:2px solid black;
+    width:50vh;
+    height: 10vh;
+    font-size: 5vh;
+}
+.box{
+    border:2px solid black;
+    width:50vw;
+    height: 10vh;
+    font-size: 6vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.box p{
+    line-height: 10vh;
+}
+.parent p{
+    color: red;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+}

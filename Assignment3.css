@@ -1,0 +1,37 @@
+.home-page {
+    background-color: rgb(178, 228, 210);
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.signup-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    flex-direction: column;
+    text-decoration: none;
+}
+.home-page .hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+.ninja-icons{
+    font-size: 50px;
+}
+.play-btn {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.footer {
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(2, 45, 29);
+}
